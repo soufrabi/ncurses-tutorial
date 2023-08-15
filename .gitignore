@@ -1,0 +1,21 @@
+# gitignore
+
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+### Above combination will ignore all files without extension ###
+
+input.txt
+output.txt
+error.txt
+gdb.txt
+build
+
+### Common errors
+:*
